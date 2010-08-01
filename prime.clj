@@ -1,4 +1,4 @@
 (ns prime
   (:use clojure.contrib.lazy-seqs))
 
-(nth primes 10000)
+(println (nth primes 10000))
